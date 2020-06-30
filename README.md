@@ -12,5 +12,6 @@ A demo of the application can be found in a video here.
 3. Matter.js
 4. HTML
 5. CSS
+6. Javascript
 ### Back-End:
 1. Ruby on Rails
