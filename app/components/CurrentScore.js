@@ -13,6 +13,14 @@ componentDidMount(){
 componentWillUnmount(){
   this.props.finalScore(this.state.score)
   clearInterval(this.interval)
+  //post final score here
+  fetch("http://localhost:3001/api/v1/scores",{
+    method: "POST",
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({score: this.state.score, id:1} )
+  })
 }
   render() {
     return(

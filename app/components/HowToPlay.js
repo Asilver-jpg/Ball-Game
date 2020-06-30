@@ -5,7 +5,7 @@ import '../App.css'
 const HowToPlay = () => {
     return(
       <div className="instructions">
-        <h1>How To Play</h1>
+        <h1><u>How To Play</u></h1>
         <ol className='instructions-list'>
           <li>The object of the game is to dodge the falling bricks by rotating the platform.</li>
           <li>The camera in the upper right will allow you to see the rotation and get a feel for the controls.</li>
@@ -15,7 +15,6 @@ const HowToPlay = () => {
           <li>The game ends when you are crushed by a brick or fall off of the platform to certain death. </li>
         </ol>
           <div>
-          <Link to='/'><button className="eightbit-btn">Home</button></Link>
           </div>
       </div>
       )

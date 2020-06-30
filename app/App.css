@@ -23,7 +23,9 @@
 
   .card-container{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto ;
+    width:100%;
+    margin-top:2em;
   }
   .card {
     grid-template-columns: auto auto auto;
@@ -37,7 +39,8 @@
     width: 130px;
     height: 20px;
     padding: 20px;
-    margin: 10px;
+    margin-bottom:1em;
+    
     font-family: 'Press Start 2P', cursive;
   }
   .eightbit-btn {
@@ -198,7 +201,7 @@
     width:90%;
     margin-bottom: 3em;
     margin-top:2em;
-
+  }
   .instructions {
     font-family: 'Press Start 2P', cursive;
     width: 800px;
@@ -210,6 +213,10 @@
   .instructions-list {
     margin: auto;
     padding: 50px;
+
+  }
+  .instructions-list li{
+    line-height: 1.5em;
   }
 
   .finalScore{
@@ -229,5 +236,24 @@
     outline-style: solid;
     outline-width: 6px;
     width: 400px;
+
+  }
+
+  .scoresContainer{
+   
+    margin: auto;
+    width: 60%;
+
+
+  }
+
+ul{
+  margin:auto;
+  list-style:none;
+ 
+}
+  h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
 
   }
