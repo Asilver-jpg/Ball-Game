@@ -1,1 +1,14 @@
-A Game that you can play with your face. 
+# Ball Roller 2: The Reckoning
+
+A game where you dodge obstacles using your face. 
+A demo of the application can be found in a video here.
+
+#### Technologies: 
+### Front-End:
+1. React
+2. ClmTrackr
+3. Matter.js
+4. HTML
+5. CSS
+### Back-End:
+1. Ruby on Rails
